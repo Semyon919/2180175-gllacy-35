@@ -198,6 +198,27 @@ header {
   background-clip: padding-box;
 }
 
+.white-button:hover {
+  background: rgba(252, 252, 252, 0.4);
+  border: 4px solid #fcfcfc;
+  box-shadow: 0 4px 15px rgba(133, 133, 133, 0.15);
+  border-radius: 26px;
+}
+
+.white-button:active {
+  background-color: #fcfcfc;
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
+.white-button:focus {
+  background: rgba(252, 252, 252, 0.5);
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
 .ice-circle {
   position: absolute;
   width: 312px;
@@ -267,22 +288,37 @@ header {
   margin-left: 3px;
 }
 
+.social-telegram {
+  position: absolute;
+  top: 391px;
+  left: 1064px;
+}
+
 .telegram {
-  margin-left: 1009px;
   border: 2px solid rgba(252, 252, 252, 0.3);
   background-clip: padding-box;
   border-radius: 24px;
+}
+
+.social-vk {
+  position: absolute;
+  top: 391px;
+  left: 1104px;
 }
 
 .vkontacte {
-  margin-left: 7px;
   border: 2px solid rgba(252, 252, 252, 0.3);
   background-clip: padding-box;
   border-radius: 24px;
 }
 
+.social-youtube {
+  position: absolute;
+  top: 391px;
+  left: 1145px;
+}
+
 .youtube {
-  margin-left: 5px;
   border: 2px solid rgba(252, 252, 252, 0.3);
   background-clip: padding-box;
   border-radius: 24px;
@@ -299,7 +335,7 @@ main {
   line-height: 46px;
   color: #2d3440;
   text-align: center;
-  margin-top: 81px;
+  margin-top: 80px;
 }
 
 .block-area {
@@ -341,6 +377,27 @@ main {
   margin: 28px 0 0 36px;
 }
 
+.block-button:hover {
+  background: rgba(252, 252, 252, 0.4);
+  border: 4px solid #fcfcfc;
+  box-shadow: 0 4px 15px rgba(133, 133, 133, 0.15);
+  border-radius: 26px;
+}
+
+.block-button:active {
+  background-color: #fcfcfc;
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
+.block-button:focus {
+  background: rgba(252, 252, 252, 0.5);
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
 .raspberry {
   position: absolute;
   top: 0;
@@ -364,7 +421,7 @@ main {
   line-height: 46px;
   color: #2d3440;
   text-align: center;
-  margin-top: 81px;
+  margin-top: 84px;
   margin-bottom: 105px;
 }
 
@@ -600,4 +657,323 @@ main {
   color: #fcfcfc;
   background-clip: padding-box;
   margin-left: 14px;
+}
+
+.delivery-block {
+  width: 1170px;
+  min-height: 534px;
+  background-image: url("/Images/Доставка.svg");
+  margin: 80px 0 0 98px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.delivery-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  padding: 170px 0 22px 100px;
+  margin: 0;
+  width: 433px;
+}
+
+.delivery-text {
+  margin: 0;
+  color: #565c66;
+  padding-left: 100px;
+  line-height: 22px;
+  width: 471px;
+}
+
+.delivery-background {
+  width: 500px;
+  min-height: 406px;
+  background-color: #fcfcfc;
+  box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
+  border-radius: 8px;
+}
+
+.delivery-form {
+  position: absolute;
+  top: 65px;
+  left: 606px;
+}
+
+.delivery-form-text {
+  margin: 0;
+  color: #565c66;
+  padding-left: 40px;
+  padding-top: 41px;
+  line-height: 22px;
+}
+
+.form-line {
+  display: flex;
+}
+
+.right-form {
+  font-weight: 700;
+  color: #2d3440;
+  padding: 32px 0 0 40px;
+  margin: 0;
+}
+
+.left-form {
+  font-weight: 700;
+  color: #2d3440;
+  margin: 0;
+  padding: 32px 0 0 75px;
+}
+
+.information {
+  padding: 30px 0 0 5px;
+}
+
+.input-line {
+  display: flex;
+}
+
+.left-input {
+  font-family: "Inter";
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 117px;
+  height: 48px;
+  color: #b9b9b9;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin: 8px 0 0 40px;
+  padding-right: 2px;
+}
+
+.right-input {
+  font-family: "Inter";
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 287px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b9b9b9;
+  padding: 14px 0 14px 15px;
+  margin: 8px 0 0 17px;
+}
+
+.place {
+  font-weight: 700;
+  color: #2d3440;
+  padding: 20px 0 0 40px;
+  margin: 0;
+}
+
+.information-second {
+  padding: 20px 0 0 5px;
+}
+
+.input-adres {
+  height: 48px;
+  width: 420px;
+  border-radius: 4px;
+  border: 1px solid #b9b9b9;
+  background-color: white;
+  margin: 8px 0 0 40px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b9b9b9;
+  padding: 3px 0 0 16px;
+}
+
+.form-button {
+  width: 159px;
+  min-height: 50px;
+  background: #ff2f64;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfc;
+  background-clip: padding-box;
+  margin: 29px 0 0 171px;
+}
+
+.feedback-block {
+  background-image: url("/Images/Обратная\ связь.svg");
+  background-size: cover;
+  width: 1170px;
+  border-radius: 16px;
+  margin: 80px 0 0 98px;
+  padding: 64px 0 64px 64px;
+}
+
+.feedback-background {
+  min-height: 364px;
+  width: 343px;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
+  padding: 0 40px 0 40px;
+}
+
+.main-adress {
+  font-size: 16px;
+  line-height: 22px;
+  color: #565c66;
+  margin: 0;
+  width: 179px;
+  padding-top: 40px;
+}
+
+.adress {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2d3440;
+  margin: 0;
+  padding-top: 12px;
+}
+
+.order-tel {
+  color: #565c66;
+  margin: 0;
+  padding: 26px 0 12px 0;
+}
+
+.main-tel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+  text-decoration: none;
+}
+
+.timetable {
+  margin: 0;
+  color: #565c66;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.adress-button {
+  width: 253px;
+  min-height: 51px;
+  background: #ff2f64;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  background-clip: padding-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfc;
+  font-family: "Inter";
+  margin-top: 30px;
+}
+
+footer {
+  margin-left: 98px;
+  font-family: "Inter";
+}
+
+.footer-block {
+  min-height: 153px;
+  position: relative;
+}
+
+.social-block {
+  display: flex;
+  margin-top: 46px;
+}
+
+.telegram-footer {
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 24px;
+  margin-left: 2px;
+}
+
+.vk-footer {
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 24px;
+  margin-left: 12px;
+}
+
+.youtube-footer {
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 24px;
+  margin-left: 12px;
+}
+
+.footer-text-top {
+  display: flex;
+}
+
+.heart-picture {
+  position: absolute;
+  top: 6px;
+  left: 408px;
+}
+
+.fat-social-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  font-family: "Inter";
+  margin: 2px 0 0 322px;
+  width: 126px;
+}
+
+.social-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  margin: 2px 0 0 24px;
+  width: 119px;
+}
+
+.social-block-second {
+  display: flex;
+}
+
+.social-text-second {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  margin: -1px 0 0 431px;
+  width: 112px;
+}
+
+.social-text-third {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  margin: -1px 0 0 39px;
+  width: 182px;
+}
+
+.logo-footer {
+  position: absolute;
+  left: 963px;
+  top: 2px;
+}
+
+.html-academy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+  margin: 12px 0 0 201px;
+  width: 193px;
 }
