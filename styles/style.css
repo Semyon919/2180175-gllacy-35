@@ -122,6 +122,19 @@ header {
   margin-left: 16px;
 }
 
+.personal-area:hover {
+  background: rgba(252, 252, 252, 0.5);
+}
+
+.personal-area:focus {
+  background: rgba(252, 252, 252, 0.5);
+  border: 2px solid #000000;
+}
+
+.personal-area:active {
+  background-color: #fcfcfc;
+}
+
 .personal-picture {
   position: absolute;
   left: 228px;
@@ -141,6 +154,19 @@ header {
   border-radius: 30px;
   border: none;
   margin-left: 16px;
+}
+
+.shopping-cart:hover {
+  background: rgba(252, 252, 252, 0.5);
+}
+
+.shopping-cart:focus {
+  background: rgba(252, 252, 252, 0.5);
+  border: 2px solid #000000;
+}
+
+.shopping-cart:active {
+  background-color: #fcfcfc;
 }
 
 .cart-picture {
@@ -619,6 +645,7 @@ main {
   border-radius: 26px;
   border: none;
   margin: 15px 0 0 72px;
+  flex-shrink: 0;
 }
 
 .ice-button:hover {
@@ -801,6 +828,23 @@ main {
   margin-left: 14px;
 }
 
+.subscribe-button:hover {
+  background: rgba(252, 252, 252, 0.3);
+  border: 4px solid #ff2f64;
+  color: #2d3440;
+}
+
+.subscribe-button:active {
+  background: #feafc3;
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
+.subscribe-button:focus {
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
 .delivery-block {
   width: 1170px;
   min-height: 534px;
@@ -948,6 +992,24 @@ main {
   margin: 29px 0 0 171px;
 }
 
+.form-button:hover {
+  background: rgba(252, 252, 252, 0.3);
+  border: 4px solid #ff2f64;
+  color: #2d3440;
+}
+
+.form-button:active {
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  background-color: #feafc3;
+  color: #fcfcfc;
+}
+
+.form-button:focus {
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
 .feedback-block {
   background-image: url("/Images/Обратная\ связь.svg");
   background-size: cover;
@@ -1021,6 +1083,25 @@ main {
   margin-top: 30px;
 }
 
+.adress-button:hover {
+  background: rgba(252, 252, 252, 0.3);
+  border: 4px solid #ff2f64;
+  color: #2d3440;
+}
+
+.adress-button:focus {
+  background: #ff2f64;
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+
+.adress-button:active {
+  background-color: #feafc3;
+  border: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  color: #fcfcfc;
+}
+
 footer {
   margin-left: 98px;
   font-family: "Inter";
@@ -1034,6 +1115,10 @@ footer {
 .social-block {
   display: flex;
   margin-top: 46px;
+}
+
+.social-list {
+  width: 119px;
 }
 
 .telegram-footer {
