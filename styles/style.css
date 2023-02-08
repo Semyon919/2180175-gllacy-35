@@ -593,12 +593,6 @@ header {
   gap: 274px;
 }
 
-.round-left {
-}
-
-.round-right {
-}
-
 .ice-cream-button-left {
   width: 38px;
   height: 38px;
@@ -606,6 +600,30 @@ header {
   border: 2px solid #fcfcfc;
   border-radius: 26px;
   padding-top: 4px;
+}
+
+.ice-cream-button-left path {
+  fill: #fcfcfc;
+}
+
+.ice-cream-button-left:hover path,
+.ice-cream-button-left:hover {
+  fill: #2d3440;
+  background-color: #fcfcfc;
+}
+
+.ice-cream-button-left:active path,
+.ice-cream-button-left:active {
+  fill: #2d3440;
+  background: rgba(252, 252, 252, 0.5);
+  border: none;
+}
+
+.ice-cream-button-left:focus path,
+.ice-cream-button-left:focus {
+  fill: #2d3440;
+  background: rgba(252, 252, 252, 0.3);
+  border: 2px solid #2d3440;
 }
 
 .ice-cream-button-right {
@@ -616,6 +634,30 @@ header {
   border-radius: 26px;
   transform: rotate(180deg);
   padding-top: 4px;
+}
+
+.ice-cream-button-right path {
+  fill: #fcfcfc;
+}
+
+.ice-cream-button-right:hover path,
+.ice-cream-button-right:hover {
+  fill: #2d3440;
+  background-color: #fcfcfc;
+}
+
+.ice-cream-button-right:active path,
+.ice-cream-button-right:active {
+  fill: #2d3440;
+  background: rgba(252, 252, 252, 0.5);
+  border: none;
+}
+
+.ice-cream-button-right:focus path,
+.ice-cream-button-right:focus {
+  fill: #2d3440;
+  background: rgba(252, 252, 252, 0.3);
+  border: 2px solid #2d3440;
 }
 
 .circle-first {
