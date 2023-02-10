@@ -29,28 +29,15 @@
 }
 
 body {
-  width: 1366px;
   margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  background-color: #feafc3;
 }
 
 .page-container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-}
-
-.background-fon {
-  background-color: #feafc3;
-}
-
-header {
-  margin-left: 98px;
-  margin-right: 98px;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  position: relative;
 }
 
 .header-line {
@@ -150,7 +137,7 @@ header {
   border-radius: 4px;
   background-color: #ffffff;
   border: 1px solid #b9b9b9;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -204,7 +191,6 @@ header {
   border-radius: 30px;
   border: none;
   margin-left: 16px;
-  font-family: "Inter";
   padding-top: 3px;
 }
 
@@ -361,7 +347,7 @@ header {
   line-height: 20px;
   text-align: center;
   color: #fcfcfc;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   margin: 60px 0 0 44px;
 }
 
@@ -411,7 +397,7 @@ header {
   line-height: 20px;
   color: #2d3440;
   padding: 14px 0 14px 14px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .private-password {
@@ -444,7 +430,7 @@ header {
   color: #fcfcfc;
   margin-top: 28px;
   margin-left: 45px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .private-list {
@@ -454,7 +440,6 @@ header {
 }
 
 .private-line-first {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -464,7 +449,6 @@ header {
 }
 
 .private-line-second {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -477,7 +461,6 @@ header {
 .second-header {
   margin-left: 98px;
   margin-right: 98px;
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -512,7 +495,7 @@ header {
   border: 4px solid rgba(252, 252, 252, 0.4);
   box-shadow: 0 4px 12px rgb(45 52 64 / 10%);
   border-radius: 26px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -725,9 +708,8 @@ header {
   border-radius: 24px;
 }
 
-main {
-  font-family: "Inter";
-  font-weight: 400;
+.ice-order {
+  margin-top: 78px;
 }
 
 .main-title {
@@ -736,7 +718,6 @@ main {
   line-height: 46px;
   color: #2d3440;
   text-align: center;
-  margin-top: 78px;
 }
 
 .block-area {
@@ -748,7 +729,6 @@ main {
   min-height: 268px;
   background: #ff7799;
   border-radius: 16px;
-  margin-left: 98px;
   color: #2d3440;
   position: relative;
   margin-top: 25px;
@@ -818,20 +798,22 @@ main {
   margin-left: 30px;
 }
 
+.popular-ice {
+  margin-top: 84px;
+}
+
 .main-title-second {
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
   color: #2d3440;
   text-align: center;
-  margin-top: 84px;
   margin-bottom: 105px;
 }
 
 .block-line {
   display: flex;
   gap: 30px;
-  margin-left: 98px;
 }
 
 .more-block {
@@ -859,7 +841,6 @@ main {
 }
 
 .ice-text {
-  font-family: "Inter";
   margin: 8px 40px 0 40px;
   font-size: 16px;
   line-height: 22px;
@@ -912,12 +893,14 @@ main {
   border: 2px solid #2d3440;
 }
 
+.ice-sale {
+  margin-top: 80px;
+}
+
 .wafer-fon {
   width: 1170px;
   min-height: 480px;
-  margin-left: 98px;
-  margin-top: 80px;
-  background-image: url("/Images/Сео.svg");
+  background-image: url("/images/cео.svg");
   padding: 24px;
 }
 
@@ -1003,16 +986,18 @@ main {
   min-height: 106px;
 }
 
+.blog {
+  margin-top: 80px;
+}
+
 .serving-block {
   display: flex;
 }
 
 .serving-method {
   width: 570px;
-  margin-top: 80px;
-  margin-left: 98px;
   padding: 35px 0 0 33px;
-  background-image: url("/Images/Новости.svg");
+  background-image: url("/images/news.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -1033,9 +1018,9 @@ main {
 }
 
 .subscribe-background {
-  background-image: url("/Images/Подписка.svg");
+  background-image: url("/images/subscription.svg");
   background-repeat: no-repeat;
-  margin: 80px 0 0 30px;
+  margin-left: 30px;
   padding: 6px;
   background-size: cover;
   border-radius: 16px;
@@ -1082,7 +1067,7 @@ main {
   border: 4px solid rgba(255, 47, 100, 0.3);
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1108,11 +1093,14 @@ main {
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
 }
 
+.home-delivery {
+  margin-top: 80px;
+}
+
 .delivery-block {
   width: 1170px;
   min-height: 534px;
-  background-image: url("/Images/Доставка.svg");
-  margin: 80px 0 0 98px;
+  background-image: url("/images/delivery.svg");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -1185,7 +1173,7 @@ main {
 }
 
 .left-input {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   background-color: #ffffff;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
@@ -1200,7 +1188,7 @@ main {
 }
 
 .right-input {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   background-color: #ffffff;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
@@ -1231,7 +1219,7 @@ main {
   border: 1px solid #b9b9b9;
   background-color: white;
   margin: 8px 0 0 40px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1273,12 +1261,15 @@ main {
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
 }
 
+.office-adress {
+  margin-top: 80px;
+}
+
 .feedback-block {
-  background-image: url("/Images/Обратная\ связь.svg");
+  background-image: url("/images/feedback.svg");
   background-size: cover;
   width: 1170px;
   border-radius: 16px;
-  margin: 80px 0 0 98px;
   padding: 64px 0 64px 64px;
 }
 
@@ -1342,7 +1333,7 @@ main {
   line-height: 20px;
   text-align: center;
   color: #fcfcfc;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   margin-top: 30px;
 }
 
@@ -1363,11 +1354,6 @@ main {
   border: 2px solid #2d3440;
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
   color: #fcfcfc;
-}
-
-footer {
-  margin-left: 98px;
-  font-family: "Inter";
 }
 
 .footer-block {
@@ -1431,7 +1417,6 @@ footer {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
-  font-family: "Inter";
   margin: 2px 0 0 431px;
   width: 126px;
 }
